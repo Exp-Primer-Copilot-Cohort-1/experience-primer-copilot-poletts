@@ -1,8 +1,9 @@
-function skillMember() {
-    this.name = 'skillMember';
-    this.age = 30;
-    this.job = 'developer';
-    this.sayName = function () {
-        console.log(this.name);
-    };
+function skillsMember() {
+  var member = document.getElementById("member");
+  var skills = document.getElementById("skills");
+  var about = document.getElementById("about");
+
+  member.style.display = "block";
+  skills.style.display = "none";
+  about.style.display = "none";
 }
